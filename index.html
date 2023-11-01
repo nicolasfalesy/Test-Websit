@@ -15,9 +15,28 @@
             background-color: black;
         }
 
+        .score {
+            color: white;
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 400%;
+            position: absolute;
+            left: 1%;
+        }
+
+        .underline {
+            background-color: rgb(122, 238, 50);
+            width: 19%;
+            height: 1%;
+            position: absolute;
+            display: flex;
+            bottom: 45%;
+            left: 2%;
+            border-radius: 50px;
+        }
+
         #game-board {
             background-color: #292738;
-            outline: 20px, solid, white;
             width: 100vmin;
             height: 100vmin;
             display: grid;
@@ -31,8 +50,9 @@
         }
 
         .food {
-            background-color: rgb(178, 0, 24);
+            background-color: rgb(255, 255, 0);
             border: .25vmin solid black;
+            border-radius: 50px;
         }
      
         .snake-head {
@@ -43,7 +63,8 @@
     <script src="game.js" defer type="module"></script>
 </head>
 <body>
-    <h1 class="score">Score: </h1>
+    <p class="score">Score: 0</p>
+    <div class="underline"></div>
     <div id="game-board"></div>
 </body>
 </html>
