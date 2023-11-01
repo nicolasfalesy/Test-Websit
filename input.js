@@ -7,7 +7,6 @@ window.addEventListener('keydown', e => {
     switch (e.key) {
         case 'ArrowUp':
         case 'w':
-
             if (lastInputDirection.y !== 0) break
             inputDirection = { x: 0, y: -1 }
             break
