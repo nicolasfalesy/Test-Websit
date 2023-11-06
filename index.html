@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="images/snake.jpg" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snake</title>
@@ -19,7 +20,7 @@
 
     .score {
       color: white;
-      font-size: 8vmin; /* Set font size relative to viewport width */
+      font-size: 6vmin; /* Set font size relative to viewport width */
       font-weight: bold;
       font-family: monospace;
       position: absolute;
@@ -48,8 +49,8 @@
     .snake {
       background-color: rgb(122, 238, 50);
       border: .25vmin solid black;
-      border-top-left-radius: 7px;
-      border-bottom-right-radius: 7px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
 
     .food {
@@ -61,7 +62,7 @@
     .snake-head {
       background-color: rgb(238, 50, 197);
       border: .25vmin solid black;
-      border-radius: 8px;
+      border-radius: 13px;
     }
 
     .soap {
@@ -75,7 +76,8 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      height: 25vmin; /* Set height relative to viewport width */
+      margin-left: -23vmin;
+      height: 36vmin; /* Set height relative to viewport width */  
     }
 
     .eating {
@@ -87,7 +89,7 @@
   <script src="game.js" defer type="module"></script>
 </head>
 <body>
-  <p class="score">Score:<span id="score-counter">1</span></p>
+  <p class="score">Score: <span id="score-counter">123</span></p>
   <div class="underline"></div>
   <div id="game-board"></div>
   <video id="soap" autoplay muted loop class="soap">

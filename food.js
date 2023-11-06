@@ -12,6 +12,7 @@ export function update() {
 
     score = snakeBody.length
     document.getElementById('score-counter').innerHTML = score
+
 }
 
 export function draw(gameBoard) {
