@@ -18,7 +18,6 @@ function main(currentTime) {
     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000
     if (secondsSinceLastRender < 1 / snakeSpeed) return
     
-    console.log('Render')
     lastRenderTime = currentTime
     
     update()
