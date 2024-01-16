@@ -1,107 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3459944405861934"
-     crossorigin="anonymous"></script>
-  <link rel="icon" href="images/snake.jpg" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snake</title>
-  <style>
-    body {
-      min-height: 100vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      background-color: black;
-      position: relative;
-      font-size: 2vmin; /* Set font size relative to viewport width */
-    }
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/shintoism.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinto</title>
 
-    .score {
-      color: white;
-      font-size: 6vmin; /* Set font size relative to viewport width */
-      font-weight: bold;
-      font-family: monospace;
-      position: absolute;
-      left: 2.1vw;
-    }
+    <style>
+        :root {
+            --primaryColour: #b20000;
+            /* Red */
+            --secondaryColour: #fd8d61;
+            /* Light Salmon */
+            --accentColour: #4caf50;
+            /* Green */
+            --backgroundColour: #f0e5cf;
+            /* Ivory */
+            --textColour: #333;
+            /* Dark Gray */
+        }
 
-    .underline {
-      background-color: rgb(122, 238, 50);
-      width: 36vmin; /* Set width relative to viewport width */
-      height: 1vmin; /* Set height relative to viewport width */
-      position: absolute;
-      bottom: 45vmin; /* Set position relative to viewport width */
-      left: 4vmin;
-      border-radius: 50px;
-    }
+        body {
+            font-family: 'Roboto Slab', serif;
+            font-size: 200%;
+            text-align: center;
+            color: var(--text-color);
+            background-color: var(--backgroundColour);
+        }
 
-    #game-board {
-      background-color: #292738;
-      width: 100vmin;
-      height: 100vmin;
-      display: grid;
-      grid-template-rows: repeat(21, 1fr);
-      grid-template-columns: repeat(21, 1fr);
-    }
+        .Title {
+            color:var(--primaryColour)
+        }
 
-    .snake {
-      background-color: rgb(122, 238, 50);
-      border: .25vmin solid black;
-      border-top-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-    }
+        .Header {
+            font-size: 65%;
+            text-align: left;
+        }
 
-    .food {
-      background-color: rgb(255, 255, 0);
-      border: .25vmin solid black;
-      border-radius: 50px;
-    }
-
-    .snake-head {
-      background-color: rgb(238, 50, 197);
-      border: .25vmin solid black;
-      border-radius: 13px;
-    }
-
-    .soap {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 44.5vmin; /* Set width relative to viewport width */
-    }
-
-    .subway-surfers {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      margin-left: -23vmin;
-      height: 36vmin; /* Set height relative to viewport width */  
-    }
-
-    .eating {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 44.5vmin; /* Set width relative to viewport width */}
-  </style>
-  <script src="game.js" defer type="module"></script>
+    </style>
 </head>
+
 <body>
-  <p class="score">Score: <span id="score-counter">123</span></p>
-  <div class="underline"></div>
-  <div id="game-board"></div>
-  <video id="soap" autoplay muted loop class="soap">
-    <source src="/videos/soap.mp4" type="video/mp4">
-  </video>
-  <video id="subway-surfers" autoplay muted loop class="subway-surfers">
-    <source src="/videos/subway-surfers.mp4" type="video/mp4">
-  </video>
-  <video id="eating" autoplay muted loop class="eating">
-    <source src="/videos/eating.mp4" type="video/mp4">
-  </video>
+    <p class="Header">Nicolas Falesy</p>
+
+    <h1 class="Title">Shinto</h1>
+    <p></p>
+    <div></div>
+
+    <h2 class="header">✤--------- History ---------✤</h2>
+    <h3>What is Shinto's founder?</h3>
+    <p>✤ Shinto does not have an official founder, nor does it have scriptures like a Bible</p>
+    <p>✤ Instead, it has <b>kami</b>'s which are "Shinto Gods"</p>
+    <br>
+    <h3>What even are Kami's though?</h3>
+    <p>✤ Kami's take the shape and form of various important concepts in life, like rain, mountains, fertility, etc.</p>
+    <p>✤ A key thing to remember is that they are not "Gods" and do not refer to the traditional Western meaning of a God</p>
+    <p>✤ When humans die, they turn into kami and are forever revered by their families</p>
+    <p>✤ The kami considered to be the most important is The Sun Goddess Amaterasu</p>
+    <p></p>
+    <br>
+
+    <h2 class="header">✤--------- General Information ---------✤</h2>
+    <p></p>
+    <br>
+
+    <h2 class="header">✤--------- Special Traditions ---------✤</h2>
+    <p></p>
+    <br>
+    
+    <h2 class="header">✤--------- Quick Facts ---------✤</h2>
+    <p></p>
+    <br>
 </body>
+
 </html>
