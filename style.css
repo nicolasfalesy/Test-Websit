@@ -17,7 +17,7 @@ body {
 .Title {
     color:var(--primaryColour);
     font-size: 500%;
-    padding: 200px;
+    padding: 250px;
     background-image: url(images/titleImage.jpg);
     border-radius: 100px;
 }
