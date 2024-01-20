@@ -95,3 +95,35 @@ body {
     width: 45%;
     margin: 2%;
 }
+
+.shintoKami {
+    float: left;
+    margin: 1%;
+    width: 35%;
+}
+
+.shintoPurification {
+    float: right;
+    margin: 1%;
+    width: 40%;
+    border-radius: 4rem;
+}
+
+.nature {
+    float:left;
+    margin: 1%;
+    width: 40%;
+    border-radius: 40%;
+}
+
+.shintoClothing {
+    float: left;
+    margin: 1%;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.citations {
+    color: #147217;
+    font-size: 18px;
+}
